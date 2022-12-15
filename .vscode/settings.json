@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/cloud_user/.local/share/virtualenvs/assault-F3hjvTUZ/bin/activate",
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}

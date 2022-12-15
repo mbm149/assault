@@ -7,7 +7,12 @@ name = "pypi"
 
 [dev-packages]
 twine = "*"
+black = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.7"
 python_full_version = "3.7.3"
+
+[pipenv]
+allow_prereleases = true
