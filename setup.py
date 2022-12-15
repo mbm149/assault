@@ -22,6 +22,7 @@ VERSION = "0.1.0"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
+    "click"
     # 'requests', 'maya', 'records',
 ]
 
@@ -106,9 +107,9 @@ setup(
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
-    # entry_points={
-    #     'console_scripts': ['mycli=mymodule:cli'],
-    # },
+    entry_points={
+        "console_scripts": ["assault=assault.cli:cli"],
+    },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
